@@ -1,6 +1,9 @@
 # Playwright Console Reporter
 
-A custom console reporter for Playwright. This reporter captures test results and formats them into structured reports and logs test execution details directly to the console. The reporter provides deeper insights into the test suite’s performance and helps developers quickly analyze test results without needing to open additional report files.
+A custom console reporter for Playwright. This reporter captures steps and test results and formats them into structured reports and logs test execution details directly to the console. The reporter provides deeper insights into the test suite’s performance and helps developers quickly analyze test results without needing to open additional report files.
+
+![Playwright Console Reporter Pass](./Screenshot1.png)
+![Playwright Console Reporter Fail](./Screenshot2.png)
 
 ## Installation
 
@@ -35,3 +38,10 @@ const config: PlaywrightTestConfig = {
 export default config;
 
 ```
+
+In order to run the tests in your project, set the environment variable:
+
+```
+PLAYWRIGHT_FORCE_TTY=false
+```
+This will ensure the detailed reports will be printed line by line.
