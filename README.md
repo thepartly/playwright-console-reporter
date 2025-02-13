@@ -45,3 +45,18 @@ In order to run the tests in your project, set the environment variable:
 PLAYWRIGHT_FORCE_TTY=false
 ```
 This will ensure the detailed reports will be printed line by line.
+
+## For developers of this plugin
+
+How to build?
+
+```
+pnpm install
+pnpm build
+```
+
+How to release to npm?
+
+1. Update `package.json` version field
+2. Run build
+3. Run `pnpm release`
