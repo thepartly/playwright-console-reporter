@@ -1,0 +1,18 @@
+# Build artifacts
+build/*
+dist/*
+playwright/.cache
+**/*.d.ts
+src/templates/*
+
+# Filetypes to exclude
+**/*.md
+
+# Lock files
+pnpm-lock.yaml
+
+# TinyMCE folder
+public/tinymce/*
+
+# Test snapshots
+**/tests/**/*-snapshots/*.json
