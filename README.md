@@ -1,7 +1,6 @@
 # Playwright Console Reporter
 
-Console reporter for Playwright. This custom playwright reporter captures test results and transforms them into formatted reports, enabling deeper insights into the test suite's performance.
-
+A custom console reporter for Playwright. This reporter captures test results and formats them into structured reports and logs test execution details directly to the console. The reporter provides deeper insights into the test suite’s performance and helps developers quickly analyze test results without needing to open additional report files.
 
 ## Installation
 
