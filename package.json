@@ -1,0 +1,30 @@
+{
+	"name": "@partly/playwright-console-reporter",
+	"version": "0.1.0",
+	"description": "Console reporter for Playwright. This custom playwright reporter captures test results and transforms them into formatted reports, enabling deeper insights into the test suite's performance.",
+	"license": "Partly Group Proprietary",
+	"private": true,
+	"author": "Partly Group",
+	"scripts": {
+		"build": "if-changed tsc",
+		"format": "prettier --write .",
+		"prebuild": "build-deps",
+		"pretest": "build-self",
+		"where": "pwd"
+	},
+	"devDependencies": {
+		"@partly/eslint-config-backend": "workspace:*",
+		"@playwright/test": "1.49.1",
+		"@types/node": "22.10.10",
+		"prettier": "3.4.2",
+		"playwright": "1.49.1",
+		"typescript": "5.7.3"
+	},
+	"exports": {
+		"import": "./build/index.js",
+		"require": "./build/index.js",
+		"types": "./build/index.d.ts"
+	},
+	"main": "build/index.js",
+	"types": "build/index.d.ts"
+}
