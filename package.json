@@ -13,7 +13,6 @@
 		"where": "pwd"
 	},
 	"devDependencies": {
-		"@partly/eslint-config-backend": "workspace:*",
 		"@playwright/test": "1.49.1",
 		"@types/node": "22.10.10",
 		"prettier": "3.4.2",
