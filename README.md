@@ -2,8 +2,8 @@
 
 A custom console reporter for Playwright. This reporter captures steps and test results and formats them into structured reports and logs test execution details directly to the console. The reporter provides deeper insights into the test suite’s performance and helps developers quickly analyze test results without needing to open additional report files.
 
-![Playwright Console Reporter Pass](./Screenshot1.png)
-![Playwright Console Reporter Fail](./Screenshot2.png)
+![Playwright Console Reporter Pass](https://github.com/thepartly/playwright-console-reporter/blob/main/Screenshot1.png?raw=true)
+![Playwright Console Reporter Fail](https://github.com/thepartly/playwright-console-reporter/blob/main/Screenshot2.png?raw=true)
 
 ## Installation
 

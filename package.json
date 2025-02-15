@@ -1,6 +1,6 @@
 {
     "name": "playwright-console-reporter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Console reporter for Playwright. This custom playwright reporter captures test results and transforms them into formatted reports, enabling deeper insights into the test suite's performance.",
     "license": "MIT",
     "author": "Partly Group",
