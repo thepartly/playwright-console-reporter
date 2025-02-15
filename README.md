@@ -10,7 +10,7 @@ A custom console reporter for Playwright. This reporter captures steps and test 
 To use this reporter, install it via npm:
 
 ```sh
-npm install @playwright-console-reporter --save-dev
+npm install playwright-console-reporter --save-dev
 ```
 
 ## Usage
