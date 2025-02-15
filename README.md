@@ -28,7 +28,7 @@ let reporters: PlaywrightTestConfig['reporter'] = [
 ];
 
 // Add the console reporter
-reporters.push(['@playwright-console-reporter', {}]);
+reporters.push(['playwright-console-reporter', {}]);
 
 const config: PlaywrightTestConfig = {
   reporter: reporters,
