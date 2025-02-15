@@ -18,7 +18,7 @@ npm install playwright-console-reporter --save-dev
 To integrate the console reporter into your Playwright test configuration, modify your `playwright.config.ts file` as follows:
 
 ```typescript
-// Ansure you have @playwright/test installed
+// Ensure you have @playwright/test installed
 import { PlaywrightTestConfig } from '@playwright/test';  
 
 let reporters: PlaywrightTestConfig['reporter'] = [
