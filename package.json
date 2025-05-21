@@ -1,6 +1,6 @@
 {
     "name": "playwright-console-reporter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Console reporter for Playwright. This custom playwright reporter captures test results and transforms them into formatted reports, enabling deeper insights into the test suite's performance.",
     "license": "MIT",
     "author": "Partly Group",
@@ -10,12 +10,12 @@
         "release": "npm publish --access public"
     },
     "dependencies": {
-        "@playwright/test": "1.49.1"
+        "@playwright/test": "^1.52.0"
     },
     "devDependencies": {
         "@types/node": "22.10.10",
         "prettier": "3.4.2",
-        "playwright": "1.49.1",
+        "playwright": "^1.52.0",
         "typescript": "5.7.3"
     },
     "exports": {
